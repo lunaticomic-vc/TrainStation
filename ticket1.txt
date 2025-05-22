@@ -1,0 +1,12 @@
+|============Train Ticket============|
+| Ticket: 1000 First Class
+| Train ID: 1000
+| Wagon ID: 1
+| Seat ID: 2
+| Departure time: 11/06/2025 08:00
+| Arrival time: 
+| Departure platform: 1
+| Discount: 0 lv.
+| Price: 50 lv.
+| Purchase Time: 23/05/2025 00:47
+|====================================|

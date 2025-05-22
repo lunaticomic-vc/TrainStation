@@ -1,10 +1,11 @@
 #pragma once
 #include "Wagon.h"
 
-class FirstClassWagon : public Wagon {
-    double comfortFactor;
+class SleeperWagon : public Wagon {
+    double pricePer100Km;
+
 public:
-    FirstClassWagon(int id, double basePrice, double comfortFactor);
+    SleeperWagon(int id, double basePrice, double pricePer100Km);
 
     std::string getType() const override;
     double calculatePrice(int seatIndex, const std::vector<std::string>& extraParams) const override;
