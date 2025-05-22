@@ -17,18 +17,18 @@ def check_ticket_file(filename, expected_fields):
             print(f"'{filename}' contains {key}: {expected}")
     return success
 
-print("🔍 Verifying ticket1.txt...")
+print("Verifying ticket1.txt...")
 ticket1_ok = check_ticket_file("ticket1.txt", {
-    "Train ID": "2001",
+    "Train ID": "1000",
     "Wagon ID": "2",
     "Seat ID": "5",
     "Price": "70 lv.",
     "Discount": "0 lv."
 })
 
-print("\n🔍 Verifying ticket2.txt...")
+print("\nVerifying ticket2.txt...")
 ticket2_ok = check_ticket_file("ticket2.txt", {
-    "Train ID": "2001",
+    "Train ID": "1000",
     "Wagon ID": "1",
     "Seat ID": "9",
     "Price": "0 lv.",

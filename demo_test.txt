@@ -9,33 +9,33 @@ add-station Burgas
 add-train Sofia Plovdiv 150 11/06/2025 16:00
 add-train Sofia Varna 440 110 11/06/2025 08:00
 
-print-train 2001
+print-train 1000
 
 add-train Sofia Burgas 380 90 11/06/2025 10:30
-print-train 2002
+print-train 1001
 
 add-station Silistra
 add-station Blagoevgrad
 
 add-train Silistra Sofia 420 120 11/06/2025 11:20
-print-train 1001
+print-train 1002
 
 print-schedule Sofia
 
-add-wagon 2001 first-class 50 0.8
-add-wagon 2001 second-class 30 20
+add-wagon 1000 first-class 50 0.8
+add-wagon 1000 second-class 30 20
 
-print-train 2001
-print-wagon 2001 2
-print-wagon 2001 1
+print-train 1000
+print-wagon 1000 2
+print-wagon 1000 1
 
-buy-ticket 2001 2 5 ticket1.txt 2
+buy-ticket 1000 2 5 ticket1.txt 2
 
-print-wagon 2001 2
+print-wagon 1000 2
 
 create-discount-card route-card Ivan_Ivanov RouteCard.txt Varna
 validate-discount-card 532421
 
-buy-ticket-discount 2001 1 9 ticket2.txt RouteCard.txt true
+buy-ticket-discount 1000 1 9 ticket2.txt RouteCard.txt true
 
 exit
