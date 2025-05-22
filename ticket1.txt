@@ -8,5 +8,5 @@
 | Departure platform: 1
 | Discount: 0 lv.
 | Price: 70 lv.
-| Purchase Time: 23/05/2025 01:08
+| Purchase Time: 23/05/2025 01:17
 |====================================|
